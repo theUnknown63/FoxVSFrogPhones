@@ -67,7 +67,7 @@ input, select, textarea {
   <button id="startBtn">Démarrer</button>
 </div>
   
-<div id="MaJ">!! Mise à jour le 17/08/2025 !!</div>  <!-- MISE A JOUR DATE 1-->
+<div id="MaJ">!! Mise à jour le 04/03/2026 !!</div>  <!-- MISE A JOUR DATE 1-->
 <div id="timer">Temps restant : 02:00</div>
 <div id="score">Score : 0 || Vies : 4</div>
 <div id="game-container">
@@ -209,7 +209,7 @@ const imgGrenouille = new Image();
 imgRenard.src   = 'https://png.pngtree.com/png-vector/20240814/ourmid/pngtree-realistic-fox-head-illustration-png-image_13481187.png';
 imgGrenouille.src = 'https://static.vecteezy.com/system/resources/thumbnails/024/508/723/small_2x/frog-isolated-on-background-with-generative-ai-png.png';
 
-  showPopup("Objectifs : Eliminer les Grenouilles ! \nAjuste avec les boutons en haut :\n-Le ZOOM \n-Le nombre de Ghost \net \nCLIQUE SUR DEMARRER \n❤️🖤");
+  showPopup("Objectifs : Eliminer les Grenouilles et DESCENDRE EN R2 ! \nAjuste avec les boutons en haut :\n-Le ZOOM \n-Le nombre de Ghost \net \nCLIQUE SUR DEMARRER \n❤️🖤");
 /* =======================
    UTILS
 ======================= */
@@ -346,7 +346,7 @@ function movePlayer(){
       updateScore();
 
       if(score >= totalFrogs){
-        showPopup("🎉 Bravo, labyrinthe terminé ! \nEt au faite \nON AIME PAS LES GRENOUILLES \n❤️🖤");
+        showPopup("🎉 Bravo, labyrinthe terminé ! \nEt au faite \nON AIME PAS LES GRENOUILLES, MAIS TU AS -4Pts, BONJOUR R2 \n❤️🖤");
       }
     }
   }
